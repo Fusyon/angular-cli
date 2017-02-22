@@ -9,6 +9,7 @@
   },
   "keywords": [],
   "scripts": {
+    "start": "ng serve --host foo.bar --port 80"
     "build": "node ./scripts/publish/build.js",
     "build:patch": "node ./scripts/patch.js",
     "build:packages": "for PKG in packages/*; do echo Building $PKG...; tsc -p $PKG; done",
